@@ -1,0 +1,384 @@
+Edad,Genero,Fumador,Historia_Fumador,Historia_Radioterapia,Funcion_Tiroidea,Examen_Fisico,Adenopatias,Patologia,Focalidad,Riesgo,T,N,M,Etapa,Respuesta,Recurrencia,Id,Orden
+27,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Indeterminado,No,1,1
+34,Femenino,No,Sí,No,Eutiroideo,Bocio multinodular,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,2,2
+30,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,3,3
+62,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,4,4
+62,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Microcarcinoma papilar,Multifocal,Bajo,T1a,N0,M0,I,Excelente,No,5,5
+52,Masculino,Sí,No,No,Eutiroideo,Bocio multinodular,No,Microcarcinoma papilar,Multifocal,Bajo,T1a,N0,M0,I,Indeterminado,No,6,6
+41,Femenino,No,Sí,No,Hipertiroidismo clínico,Bocio nodular único-derecho,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,7,7
+46,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,8,8
+51,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,9,9
+40,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,10,10
+75,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,11,11
+59,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,12,12
+49,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,13,13
+50,Femenino,No,No,No,Hipertiroidismo clínico,Bocio multinodular,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,14,14
+76,Femenino,No,No,No,Hipotiroidismo clínico,Bocio nodular único-derecho,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,15,15
+42,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Indeterminado,No,16,16
+40,Femenino,No,Sí,No,Eutiroideo,Bocio nodular único-derecho,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,17,17
+44,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Indeterminado,No,18,18
+43,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,19,19
+52,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Microcarcinoma papilar,Multifocal,Bajo,T1a,N0,M0,I,Indeterminado,No,20,20
+41,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,21,21
+44,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,22,22
+36,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,23,23
+70,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,24,24
+60,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Microcarcinoma papilar,Multifocal,Bajo,T1a,N0,M0,I,Excelente,No,25,25
+33,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,26,26
+43,Masculino,No,No,No,Hipertiroidismo subclínico,Bocio nodular único-izquierdo,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,27,27
+26,Masculino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,28,28
+41,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,29,29
+37,Femenino,No,Sí,No,Hipotiroidismo subclínico,Normal,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,30,30
+37,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,31,31
+30,Femenino,No,No,No,Hipertiroidismo clínico,Normal,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,32,32
+36,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,33,33
+55,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,34,34
+52,Masculino,Sí,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,35,35
+37,Femenino,No,No,No,Hipotiroidismo subclínico,Bocio nodular único-izquierdo,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,36,36
+31,Femenino,No,No,No,Hipertiroidismo clínico,Bocio difuso,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,37,37
+43,Masculino,No,No,No,Eutiroideo,Bocio multinodular,No,Microcarcinoma papilar,Multifocal,Bajo,T1a,N0,M0,I,Excelente,No,38,38
+40,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,39,39
+34,Femenino,No,No,No,Eutiroideo,Bocio difuso,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,40,40
+51,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,41,41
+45,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,42,42
+20,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,43,43
+38,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,44,44
+38,Femenino,No,No,No,Hipertiroidismo clínico,Bocio difuso,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,45,45
+33,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Microcarcinoma papilar,Unifocal,Bajo,T1a,N0,M0,I,Excelente,No,46,46
+31,Femenino,No,No,No,Hipotiroidismo clínico,Bocio multinodular,No,Microcarcinoma papilar,Unifocal,Intermedio,T1a,N0,M0,I,Excelente,No,47,47
+31,Femenino,No,No,No,Eutiroideo,Bocio multinodular,Derecha,Carcinoma papilar,Multifocal,Intermedio,T1a,N1b,M0,I,Excelente,No,48,48
+26,Femenino,No,No,No,Eutiroideo,Normal,Extenso,Carcinoma papilar,Unifocal,Intermedio,T1a,N1b,M0,I,Incompleto estructural,Sí,49,49
+29,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma folicular,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,50,50
+43,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Microcarcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,51,51
+30,Femenino,No,No,No,Hipertiroidismo subclínico,Bocio multinodular,No,Carcinoma papilar,Multifocal,Bajo,T1b,N0,M0,I,Excelente,No,52,52
+25,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Bajo,T1b,N0,M0,I,Excelente,No,53,53
+27,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,54,54
+25,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,55,55
+21,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Indeterminado,No,56,56
+43,Femenino,No,Sí,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,57,57
+23,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,58,58
+23,Femenino,No,No,No,Hipertiroidismo clínico,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,59,59
+43,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Indeterminado,No,60,60
+24,Masculino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,61,61
+35,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,62,62
+54,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,63,63
+54,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Indeterminado,No,64,64
+22,Femenino,No,No,No,Hipertiroidismo subclínico,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,65,65
+38,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Bajo,T1b,N0,M0,I,Excelente,No,66,66
+35,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,67,67
+51,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,68,68
+22,Masculino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Bajo,T1b,N0,M0,I,Excelente,No,69,69
+51,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,70,70
+40,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,71,71
+69,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,72,72
+31,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,73,73
+29,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,74,74
+30,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,75,75
+28,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,76,76
+22,Femenino,No,No,No,Hipotiroidismo clínico,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,77,77
+29,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,78,78
+35,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,79,79
+50,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Bajo,T1b,N0,M0,I,Excelente,No,80,80
+27,Femenino,No,No,No,Hipertiroidismo clínico,Bocio difuso,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,81,81
+17,Femenino,No,Sí,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,82,82
+27,Femenino,No,No,No,Hipertiroidismo subclínico,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,83,83
+40,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Intermedio,T1b,N0,M0,I,Excelente,No,84,84
+33,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Intermedio,T1b,N1b,M0,I,Indeterminado,No,85,85
+25,Femenino,No,Sí,Sí,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,86,86
+73,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T1b,N0,M0,I,Excelente,No,87,87
+36,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Bajo,T1b,N0,M0,I,Indeterminado,Sí,88,88
+35,Femenino,No,No,No,Eutiroideo,Bocio multinodular,Derecha,Carcinoma papilar,Multifocal,Intermedio,T1b,N1b,M0,I,Incompleto estructural,Sí,89,89
+31,Masculino,Sí,No,No,Eutiroideo,Bocio multinodular,Derecha,Carcinoma papilar,Multifocal,Intermedio,T1b,N1b,M0,I,Incompleto estructural,Sí,90,90
+18,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Unifocal,Intermedio,T1b,N1b,M0,I,Incompleto estructural,Sí,91,91
+62,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma folicular,Multifocal,Intermedio,T1b,N0,M0,I,Incompleto estructural,Sí,92,92
+62,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma de células Hürthle,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,93,93
+39,Femenino,No,No,No,Eutiroideo,Bocio difuso,No,Carcinoma de células Hürthle,Unifocal,Bajo,T2,N0,M0,I,Indeterminado,No,94,94
+37,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma de células Hürthle,Multifocal,Bajo,T2,N0,M0,I,Excelente,No,95,95
+26,Femenino,No,Sí,No,Hipertiroidismo subclínico,Bocio nodular único-derecho,No,Carcinoma de células Hürthle,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,96,96
+31,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma de células Hürthle,Unifocal,Bajo,T2,N0,M0,I,Indeterminado,No,97,97
+24,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma folicular,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,98,98
+57,Femenino,Sí,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma folicular,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,99,99
+28,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma folicular,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,100,100
+44,Masculino,Sí,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma folicular,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,101,101
+42,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma folicular,Unifocal,Bajo,T2,N0,M0,I,Indeterminado,No,102,102
+27,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma folicular,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,103,103
+51,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,104,104
+33,Femenino,No,No,No,Hipotiroidismo clínico,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,105,105
+42,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,106,106
+26,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,107,107
+24,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,108,108
+60,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Bajo,T2,N0,M0,I,Excelente,No,109,109
+60,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Incompleto bioquímico,No,110,110
+31,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,111,111
+66,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,112,112
+44,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,113,113
+32,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,114,114
+26,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Bajo,T2,N0,M0,I,Excelente,No,115,115
+37,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,116,116
+33,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,117,117
+23,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Bajo,T2,N0,M0,I,Indeterminado,No,118,118
+47,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,119,119
+28,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,120,120
+37,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,121,121
+26,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,122,122
+28,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,123,123
+28,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,124,124
+44,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,125,125
+31,Femenino,No,Sí,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,126,126
+27,Femenino,No,No,No,Hipotiroidismo clínico,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,127,127
+56,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Incompleto bioquímico,No,128,128
+63,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,129,129
+24,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Incompleto bioquímico,No,130,130
+30,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,131,131
+31,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,132,132
+32,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,133,133
+28,Femenino,No,No,No,Hipertiroidismo clínico,Bocio multinodular,No,Carcinoma papilar,Multifocal,Bajo,T2,N0,M0,I,Excelente,No,134,134
+51,Femenino,No,Sí,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,135,135
+20,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,136,136
+21,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,137,137
+32,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,138,138
+26,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,139,139
+42,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Incompleto bioquímico,No,140,140
+28,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,141,141
+41,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,142,142
+42,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,143,143
+49,Femenino,No,Sí,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,144,144
+29,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,145,145
+29,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,146,146
+25,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Indeterminado,No,147,147
+41,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Indeterminado,No,148,148
+33,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,149,149
+27,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,150,150
+50,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,151,151
+19,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,152,152
+35,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,153,153
+63,Femenino,No,No,No,Eutiroideo,Normal,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Incompleto bioquímico,No,154,154
+24,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,155,155
+36,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,156,156
+31,Masculino,Sí,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,157,157
+24,Masculino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,158,158
+33,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,159,159
+24,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,160,160
+28,Femenino,No,No,No,Hipotiroidismo clínico,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,161,161
+22,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,162,162
+27,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,163,163
+28,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Indeterminado,No,164,164
+29,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Multifocal,Bajo,T2,N0,M0,I,Excelente,No,165,165
+40,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Bajo,T2,N0,M0,I,Excelente,No,166,166
+31,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,167,167
+55,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,168,168
+21,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,169,169
+40,Masculino,Sí,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,170,170
+38,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,171,171
+21,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,172,172
+31,Masculino,Sí,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,173,173
+30,Femenino,No,No,No,Eutiroideo,Normal,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Indeterminado,No,174,174
+50,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Indeterminado,No,175,175
+34,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,176,176
+45,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,177,177
+52,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,178,178
+38,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,179,179
+67,Masculino,Sí,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Bajo,T2,N0,M0,I,Excelente,No,180,180
+72,Femenino,No,No,No,Hipotiroidismo subclínico,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Indeterminado,No,181,181
+45,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Bajo,T2,N0,M0,I,Excelente,No,182,182
+45,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Bajo,T2,N0,M0,I,Incompleto bioquímico,No,183,183
+26,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,184,184
+67,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,185,185
+56,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,186,186
+30,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,187,187
+34,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,188,188
+50,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,189,189
+42,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,190,190
+35,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Bajo,T2,N0,M0,I,Excelente,No,191,191
+23,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Bajo,T2,N0,M0,I,Excelente,No,192,192
+44,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Bajo,T2,N0,M0,I,Excelente,No,193,193
+23,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,Izquierda,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,194,194
+26,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,195,195
+61,Masculino,No,No,No,Hipotiroidismo subclínico,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,196,196
+22,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,197,197
+31,Femenino,No,No,No,Hipertiroidismo clínico,Bocio difuso,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,198,198
+68,Femenino,No,No,No,Hipertiroidismo clínico,Bocio difuso,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,199,199
+57,Masculino,No,No,No,Hipertiroidismo clínico,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Excelente,No,200,200
+27,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Bajo,T2,N1b,M0,I,Excelente,No,201,201
+25,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Multifocal,Bajo,T2,N1b,M0,I,Excelente,No,202,202
+20,Masculino,No,No,No,Hipotiroidismo subclínico,Bocio multinodular,No,Carcinoma papilar,Multifocal,Intermedio,T2,N1b,M0,I,Excelente,No,203,203
+33,Masculino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N1b,M0,I,Excelente,No,204,204
+36,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Unifocal,Bajo,T2,N1b,M0,I,Excelente,No,205,205
+36,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Unifocal,Bajo,T2,N1b,M0,I,Indeterminado,No,206,206
+40,Femenino,No,No,No,Eutiroideo,Bocio multinodular,Izquierda,Carcinoma papilar,Unifocal,Intermedio,T2,N1b,M0,I,Indeterminado,No,207,207
+17,Femenino,No,No,No,Eutiroideo,Bocio multinodular,Derecha,Carcinoma papilar,Unifocal,Intermedio,T2,N1b,M0,I,Indeterminado,No,208,208
+24,Femenino,No,No,No,Hipotiroidismo clínico,Bocio multinodular,Bilateral,Carcinoma papilar,Multifocal,Intermedio,T2,N1b,M0,I,Excelente,No,209,209
+38,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Multifocal,Intermedio,T2,N1b,M0,I,Excelente,No,210,210
+28,Femenino,No,No,No,Eutiroideo,Bocio multinodular,Derecha,Carcinoma papilar,Unifocal,Intermedio,T2,N1b,M0,I,Excelente,No,211,211
+36,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Unifocal,Intermedio,T2,N1b,M0,I,Indeterminado,No,212,212
+50,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Unifocal,Intermedio,T2,N1b,M0,I,Indeterminado,No,213,213
+51,Masculino,No,No,No,Hipertiroidismo clínico,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Unifocal,Intermedio,T2,N1b,M0,I,Indeterminado,No,214,214
+55,Femenino,No,No,No,Hipotiroidismo subclínico,Bocio multinodular,Bilateral,Carcinoma papilar,Multifocal,Intermedio,T2,N1b,M0,II,Indeterminado,No,215,215
+31,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N1a,M0,I,Excelente,No,216,216
+33,Femenino,No,No,No,Hipotiroidismo clínico,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N1a,M0,I,Indeterminado,No,217,217
+28,Femenino,Sí,No,No,Hipertiroidismo clínico,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N1a,M0,I,Indeterminado,No,218,218
+48,Masculino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,Izquierda,Carcinoma papilar,Unifocal,Intermedio,T2,N1a,M0,I,Indeterminado,No,219,219
+40,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N1a,M0,I,Excelente,No,220,220
+29,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T2,N1a,M0,I,Indeterminado,No,221,221
+20,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Intermedio,T2,N1a,M0,I,Excelente,No,222,222
+35,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Indeterminado,No,223,223
+56,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Incompleto estructural,Sí,224,224
+20,Masculino,No,No,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Incompleto estructural,Sí,225,225
+62,Femenino,No,No,No,Hipotiroidismo clínico,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Incompleto bioquímico,Sí,226,226
+17,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Alto,T2,N0,M0,I,Incompleto estructural,Sí,227,227
+21,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Unifocal,Bajo,T2,N1b,M0,I,Incompleto estructural,Sí,228,228
+20,Masculino,No,No,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Unifocal,Intermedio,T2,N1b,M0,I,Incompleto estructural,Sí,229,229
+40,Masculino,Sí,No,No,Eutiroideo,Bocio multinodular,Bilateral,Carcinoma papilar,Multifocal,Intermedio,T2,N1b,M0,I,Incompleto estructural,Sí,230,230
+38,Masculino,Sí,Sí,No,Eutiroideo,Bocio multinodular,Derecha,Carcinoma papilar,Multifocal,Intermedio,T2,N1b,M0,I,Incompleto estructural,Sí,231,231
+21,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,Izquierda,Carcinoma papilar,Unifocal,Intermedio,T2,N1b,M0,I,Incompleto estructural,Sí,232,232
+31,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,Izquierda,Carcinoma papilar,Unifocal,Intermedio,T2,N1b,M0,I,Incompleto estructural,Sí,233,233
+34,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Unifocal,Intermedio,T2,N1b,M0,I,Incompleto estructural,Sí,234,234
+60,Femenino,No,No,No,Eutiroideo,Bocio multinodular,Bilateral,Carcinoma papilar,Multifocal,Intermedio,T2,N1b,M0,I,Incompleto estructural,Sí,235,235
+60,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Multifocal,Intermedio,T2,N1b,M0,II,Incompleto estructural,Sí,236,236
+62,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Multifocal,Intermedio,T2,N1b,M0,II,Incompleto estructural,Sí,237,237
+36,Masculino,No,No,No,Hipertiroidismo clínico,Bocio multinodular,No,Carcinoma papilar,Unifocal,Intermedio,T2,N1a,M0,I,Indeterminado,Sí,238,238
+29,Femenino,Sí,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma folicular,Unifocal,Bajo,T2,N0,M0,I,Incompleto estructural,Sí,239,239
+33,Masculino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Incompleto estructural,Sí,240,240
+75,Masculino,Sí,No,Sí,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma folicular,Multifocal,Alto,T2,N0,M1,IVB,Incompleto estructural,Sí,241,241
+62,Masculino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Incompleto estructural,Sí,242,242
+56,Masculino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T2,N0,M0,I,Incompleto bioquímico,Sí,243,243
+52,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma folicular,Unifocal,Bajo,T3a,N0,M0,I,Incompleto bioquímico,No,244,244
+35,Femenino,No,No,No,Hipertiroidismo clínico,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T3a,N0,M0,I,Excelente,No,245,245
+34,Femenino,No,No,No,Eutiroideo,Bocio multinodular,Bilateral,Carcinoma papilar,Unifocal,Intermedio,T3a,N1b,M0,I,Indeterminado,No,246,246
+32,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma de células Hürthle,Multifocal,Bajo,T3a,N0,M0,I,Excelente,No,247,247
+27,Femenino,No,No,No,Hipotiroidismo clínico,Bocio nodular único-derecho,No,Carcinoma de células Hürthle,Multifocal,Bajo,T3a,N0,M0,I,Excelente,No,248,248
+52,Femenino,Sí,No,No,Eutiroideo,Bocio nodular único-izquierdo,Bilateral,Carcinoma de células Hürthle,Multifocal,Bajo,T3a,N0,M0,I,Incompleto estructural,No,249,249
+46,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma de células Hürthle,Multifocal,Bajo,T3a,N0,M0,I,Excelente,No,250,250
+30,Femenino,No,No,No,Hipotiroidismo subclínico,Normal,Derecha,Carcinoma folicular,Unifocal,Bajo,T3a,N0,M0,I,Excelente,No,251,251
+32,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma folicular,Multifocal,Bajo,T3a,N0,M0,I,Indeterminado,No,252,252
+25,Femenino,No,No,No,Hipertiroidismo clínico,Bocio multinodular,No,Carcinoma folicular,Multifocal,Bajo,T3a,N0,M0,I,Excelente,No,253,253
+38,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma folicular,Multifocal,Bajo,T3a,N0,M0,I,Incompleto bioquímico,No,254,254
+31,Masculino,Sí,Sí,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma folicular,Unifocal,Bajo,T3a,N0,M0,I,Indeterminado,No,255,255
+37,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Multifocal,Bajo,T3a,N0,M0,I,Excelente,No,256,256
+21,Masculino,Sí,Sí,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T3a,N0,M0,I,Incompleto bioquímico,No,257,257
+34,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T3a,N0,M0,I,Excelente,No,258,258
+30,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Multifocal,Bajo,T3a,N0,M0,I,Incompleto bioquímico,No,259,259
+48,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Multifocal,Bajo,T3a,N0,M0,I,Indeterminado,No,260,260
+31,Masculino,Sí,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Multifocal,Bajo,T3a,N0,M0,I,Excelente,No,261,261
+52,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Multifocal,Bajo,T3a,N0,M0,I,Indeterminado,No,262,262
+38,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T3a,N0,M0,I,Excelente,No,263,263
+41,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Multifocal,Bajo,T3a,N0,M0,I,Excelente,No,264,264
+41,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Bajo,T3a,N0,M0,I,Incompleto bioquímico,No,265,265
+70,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Multifocal,Bajo,T3a,N0,M0,I,Indeterminado,No,266,266
+19,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Bajo,T3a,N0,M0,I,Excelente,No,267,267
+41,Masculino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T3a,N0,M0,I,Excelente,No,268,268
+32,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T3a,N0,M0,I,Excelente,No,269,269
+35,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Bajo,T3a,N0,M0,I,Indeterminado,No,270,270
+39,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T3a,N0,M0,I,Indeterminado,No,271,271
+45,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T3a,N0,M0,I,Excelente,No,272,272
+46,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Multifocal,Bajo,T3a,N0,M0,I,Indeterminado,No,273,273
+45,Femenino,No,No,No,Hipotiroidismo clínico,Bocio nodular único-izquierdo,No,Carcinoma papilar,Multifocal,Bajo,T3a,N0,M0,I,Indeterminado,No,274,274
+28,Masculino,Sí,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Unifocal,Bajo,T3a,N0,M0,I,Indeterminado,No,275,275
+31,Masculino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Bajo,T3a,N0,M0,I,Indeterminado,No,276,276
+81,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Bajo,T3a,N0,M0,II,Excelente,No,277,277
+41,Masculino,Sí,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma de células Hürthle,Multifocal,Intermedio,T3a,N0,M0,I,Excelente,No,278,278
+56,Masculino,Sí,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma de células Hürthle,Multifocal,Intermedio,T3a,N0,M0,I,Indeterminado,No,279,279
+47,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma folicular,Unifocal,Intermedio,T3a,N0,M0,I,Indeterminado,No,280,280
+37,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma folicular,Unifocal,Intermedio,T3a,N0,M0,I,Excelente,No,281,281
+32,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Intermedio,T3a,N0,M0,I,Incompleto bioquímico,No,282,282
+53,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Intermedio,T3a,N0,M0,I,Indeterminado,No,283,283
+30,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma papilar,Multifocal,Intermedio,T3a,N0,M0,I,Excelente,No,284,284
+34,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Intermedio,T3a,N0,M0,I,Excelente,No,285,285
+62,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma de células Hürthle,Multifocal,Intermedio,T3a,N0,M0,II,Indeterminado,No,286,286
+58,Femenino,No,No,No,Hipertiroidismo clínico,Bocio multinodular,No,Carcinoma folicular,Multifocal,Intermedio,T3a,N0,M0,II,Indeterminado,No,287,287
+55,Masculino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Intermedio,T3a,N0,M0,II,Indeterminado,No,288,288
+21,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,Derecha,Carcinoma papilar,Multifocal,Bajo,T3a,N1b,M0,I,Excelente,No,289,289
+27,Femenino,No,No,No,Eutiroideo,Bocio multinodular,Derecha,Carcinoma papilar,Multifocal,Intermedio,T3a,N1b,M0,I,Excelente,No,290,290
+46,Femenino,No,No,No,Eutiroideo,Bocio multinodular,Bilateral,Carcinoma papilar,Multifocal,Intermedio,T3a,N1b,M0,I,Indeterminado,No,291,291
+44,Femenino,No,No,No,Eutiroideo,Bocio multinodular,Derecha,Carcinoma papilar,Multifocal,Intermedio,T3a,N1b,M0,I,Excelente,No,292,292
+29,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,Izquierda,Carcinoma papilar,Unifocal,Bajo,T3a,N1a,M0,I,Excelente,No,293,293
+26,Femenino,No,No,No,Hipotiroidismo subclínico,Bocio multinodular,Derecha,Carcinoma papilar,Unifocal,Intermedio,T3a,N1a,M0,I,Indeterminado,No,294,294
+42,Masculino,No,No,No,Hipotiroidismo subclínico,Bocio nodular único-derecho,No,Carcinoma papilar,Multifocal,Intermedio,T3a,N1a,M0,I,Indeterminado,No,295,295
+56,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Multifocal,Intermedio,T3a,N1a,M0,II,Excelente,No,296,296
+51,Femenino,No,Sí,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma de células Hürthle,Unifocal,Bajo,T3a,N0,M0,I,Indeterminado,No,297,297
+61,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Intermedio,T3a,N0,M0,II,Excelente,No,298,298
+42,Masculino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Multifocal,Bajo,T3a,N0,M0,I,Incompleto estructural,Sí,299,299
+34,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Bajo,T3a,N0,M0,I,Incompleto estructural,Sí,300,300
+67,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma de células Hürthle,Unifocal,Intermedio,T3a,N0,M0,II,Indeterminado,Sí,301,301
+63,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma folicular,Unifocal,Intermedio,T3a,N0,M0,II,Indeterminado,Sí,302,302
+67,Masculino,Sí,Sí,No,Eutiroideo,Bocio multinodular,Bilateral,Carcinoma papilar,Unifocal,Intermedio,T3a,N0,M0,II,Incompleto bioquímico,Sí,303,303
+73,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Unifocal,Intermedio,T3a,N0,M0,II,Incompleto estructural,Sí,304,304
+26,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,Izquierda,Carcinoma papilar,Unifocal,Intermedio,T3a,N1b,M1,I,Incompleto estructural,Sí,305,305
+30,Femenino,No,No,No,Eutiroideo,Bocio multinodular,Derecha,Carcinoma papilar,Unifocal,Intermedio,T3a,N1b,M0,I,Incompleto estructural,Sí,306,306
+36,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,Izquierda,Carcinoma papilar,Multifocal,Intermedio,T3a,N1b,M0,I,Indeterminado,Sí,307,307
+31,Femenino,No,No,No,Eutiroideo,Bocio multinodular,Bilateral,Carcinoma papilar,Multifocal,Intermedio,T3a,N1b,M0,I,Incompleto estructural,Sí,308,308
+40,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Multifocal,Intermedio,T3a,N1b,M0,I,Incompleto estructural,Sí,309,309
+49,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Unifocal,Intermedio,T3a,N1b,M0,I,Incompleto estructural,Sí,310,310
+38,Masculino,Sí,No,No,Eutiroideo,Bocio multinodular,Bilateral,Carcinoma papilar,Unifocal,Intermedio,T3a,N1b,M0,I,Incompleto estructural,Sí,311,311
+27,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,Bilateral,Carcinoma papilar,Unifocal,Intermedio,T3a,N1b,M0,I,Incompleto estructural,Sí,312,312
+27,Masculino,No,No,No,Eutiroideo,Bocio multinodular,Bilateral,Carcinoma papilar,Multifocal,Intermedio,T3a,N1b,M0,I,Incompleto estructural,Sí,313,313
+33,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Multifocal,Intermedio,T3a,N1b,M0,I,Incompleto bioquímico,Sí,314,314
+32,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,Izquierda,Carcinoma papilar,Multifocal,Intermedio,T3a,N1b,M0,I,Incompleto estructural,Sí,315,315
+29,Femenino,No,No,No,Eutiroideo,Bocio multinodular,Derecha,Carcinoma papilar,Multifocal,Intermedio,T3a,N1b,M0,I,Incompleto estructural,Sí,316,316
+37,Masculino,No,No,No,Eutiroideo,Bocio multinodular,Bilateral,Carcinoma papilar,Multifocal,Intermedio,T3a,N1b,M0,I,Incompleto estructural,Sí,317,317
+48,Femenino,No,No,No,Eutiroideo,Bocio multinodular,Bilateral,Carcinoma papilar,Multifocal,Intermedio,T3a,N1b,M0,I,Incompleto estructural,Sí,318,318
+30,Femenino,No,No,No,Eutiroideo,Bocio multinodular,Bilateral,Carcinoma papilar,Multifocal,Intermedio,T3a,N1b,M0,I,Incompleto estructural,Sí,319,319
+33,Masculino,No,No,No,Eutiroideo,Bocio multinodular,Bilateral,Carcinoma papilar,Unifocal,Intermedio,T3a,N1b,M0,I,Incompleto estructural,Sí,320,320
+80,Femenino,Sí,No,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Multifocal,Intermedio,T3a,N1b,M0,II,Incompleto estructural,Sí,321,321
+62,Femenino,No,No,No,Eutiroideo,Bocio multinodular,Derecha,Carcinoma papilar,Multifocal,Intermedio,T3a,N1b,M0,II,Incompleto estructural,Sí,322,322
+63,Masculino,Sí,No,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Multifocal,Intermedio,T3a,N1b,M0,II,Incompleto estructural,Sí,323,323
+60,Masculino,No,No,No,Eutiroideo,Bocio nodular único-derecho,Bilateral,Carcinoma papilar,Multifocal,Intermedio,T3a,N1b,M0,II,Incompleto estructural,Sí,324,324
+79,Masculino,Sí,No,No,Eutiroideo,Bocio multinodular,Bilateral,Carcinoma papilar,Multifocal,Intermedio,T3a,N1b,M0,II,Indeterminado,Sí,325,325
+65,Femenino,No,Sí,No,Eutiroideo,Bocio multinodular,Bilateral,Carcinoma papilar,Multifocal,Intermedio,T3a,N1b,M0,II,Incompleto bioquímico,Sí,326,326
+35,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Multifocal,Intermedio,T3a,N1a,M0,I,Incompleto bioquímico,Sí,327,327
+58,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Intermedio,T3a,N1a,M0,II,Indeterminado,Sí,328,328
+34,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Unifocal,Alto,T3a,N1a,M0,I,Incompleto bioquímico,Sí,329,329
+56,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma folicular,Multifocal,Bajo,T3a,N0,M0,I,Incompleto estructural,Sí,330,330
+52,Masculino,Sí,No,No,Eutiroideo,Bocio nodular único-izquierdo,Derecha,Carcinoma folicular,Multifocal,Intermedio,T3a,N0,M0,I,Incompleto bioquímico,Sí,331,331
+51,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma folicular,Unifocal,Intermedio,T3a,N0,M0,I,Incompleto estructural,Sí,332,332
+31,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma folicular,Unifocal,Intermedio,T3a,N1a,M0,I,Incompleto bioquímico,Sí,333,333
+44,Masculino,Sí,No,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Multifocal,Alto,T3a,N1b,M1,II,Incompleto estructural,Sí,334,334
+15,Femenino,No,No,No,Eutiroideo,Normal,Bilateral,Carcinoma papilar,Multifocal,Intermedio,T3a,N1b,M0,I,Incompleto estructural,Sí,335,335
+29,Masculino,No,No,No,Eutiroideo,Bocio multinodular,Extenso,Carcinoma papilar,Multifocal,Intermedio,T3a,N1b,M0,I,Incompleto estructural,Sí,336,336
+53,Masculino,No,No,No,Eutiroideo,Bocio multinodular,Bilateral,Carcinoma papilar,Multifocal,Intermedio,T3a,N1b,M0,I,Incompleto estructural,Sí,337,337
+45,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,Izquierda,Carcinoma papilar,Multifocal,Intermedio,T3a,N1b,M0,I,Incompleto estructural,Sí,338,338
+38,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,Posterior,Carcinoma papilar,Multifocal,Alto,T3a,N1b,M1,II,Incompleto estructural,Sí,339,339
+48,Femenino,No,No,No,Hipertiroidismo clínico,Bocio multinodular,Izquierda,Carcinoma de células Hürthle,Multifocal,Intermedio,T3b,N1a,M0,I,Incompleto estructural,No,340,340
+42,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Intermedio,T3b,N0,M0,I,Indeterminado,No,341,341
+23,Femenino,No,Sí,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Unifocal,Intermedio,T3b,N1a,M0,I,Incompleto estructural,Sí,342,342
+22,Femenino,No,No,No,Eutiroideo,Bocio multinodular,Derecha,Carcinoma papilar,Multifocal,Intermedio,T3b,N1a,M0,I,Incompleto estructural,Sí,343,343
+44,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,Izquierda,Carcinoma papilar,Multifocal,Intermedio,T3b,N1b,M0,I,Incompleto estructural,Sí,344,344
+31,Femenino,No,No,No,Eutiroideo,Bocio nodular único-izquierdo,Izquierda,Carcinoma papilar,Unifocal,Intermedio,T3b,N1b,M0,I,Excelente,Sí,345,345
+25,Femenino,No,No,No,Eutiroideo,Bocio multinodular,Izquierda,Carcinoma papilar,Multifocal,Intermedio,T3b,N1b,M0,I,Incompleto estructural,Sí,346,346
+32,Masculino,No,Sí,No,Eutiroideo,Bocio multinodular,Bilateral,Carcinoma papilar,Multifocal,Intermedio,T3b,N1b,M0,I,Incompleto estructural,Sí,347,347
+82,Masculino,Sí,No,No,Eutiroideo,Bocio nodular único-izquierdo,Izquierda,Carcinoma papilar,Unifocal,Intermedio,T3b,N1b,M0,II,Incompleto estructural,Sí,348,348
+58,Femenino,No,No,No,Hipotiroidismo subclínico,Bocio multinodular,Extenso,Carcinoma papilar,Multifocal,Intermedio,T3b,N1b,M0,II,Incompleto estructural,Sí,349,349
+68,Masculino,Sí,Sí,No,Hipotiroidismo subclínico,Bocio nodular único-izquierdo,Bilateral,Carcinoma papilar,Multifocal,Intermedio,T3b,N1b,M0,III,Incompleto estructural,Sí,350,350
+37,Femenino,No,No,No,Hipotiroidismo subclínico,Bocio nodular único-izquierdo,No,Carcinoma papilar,Multifocal,Intermedio,T3b,N1a,M1,II,Incompleto estructural,Sí,351,351
+59,Masculino,Sí,Sí,No,Hipotiroidismo clínico,Bocio multinodular,No,Carcinoma de células Hürthle,Multifocal,Intermedio,T3b,N0,M0,I,Incompleto estructural,Sí,352,352
+21,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Multifocal,Intermedio,T3b,N0,M0,I,Incompleto estructural,Sí,353,353
+73,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Multifocal,Alto,T3b,N1a,M1,IVB,Incompleto estructural,Sí,354,354
+35,Masculino,Sí,No,No,Eutiroideo,Bocio nodular único-izquierdo,Izquierda,Carcinoma papilar,Multifocal,Alto,T3b,N1b,M1,II,Incompleto estructural,Sí,355,355
+32,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,No,Carcinoma papilar,Multifocal,Intermedio,T4a,N0,M0,I,Excelente,No,356,356
+54,Masculino,Sí,No,No,Eutiroideo,Bocio nodular único-izquierdo,Derecha,Carcinoma de células Hürthle,Multifocal,Intermedio,T4a,N1b,M0,II,Incompleto estructural,Sí,357,357
+26,Femenino,Sí,No,No,Eutiroideo,Bocio nodular único-izquierdo,Bilateral,Carcinoma de células Hürthle,Multifocal,Alto,T4a,N1b,M0,I,Incompleto estructural,Sí,358,358
+53,Femenino,No,No,No,Eutiroideo,Bocio multinodular,Derecha,Carcinoma papilar,Unifocal,Alto,T4a,N1b,M0,I,Incompleto estructural,Sí,359,359
+35,Femenino,No,No,No,Eutiroideo,Bocio multinodular,Extenso,Carcinoma papilar,Multifocal,Alto,T4a,N1b,M0,I,Incompleto estructural,Sí,360,360
+49,Masculino,No,No,No,Eutiroideo,Bocio multinodular,Bilateral,Carcinoma papilar,Multifocal,Alto,T4a,N1b,M0,I,Incompleto estructural,Sí,361,361
+34,Femenino,No,No,No,Eutiroideo,Bocio multinodular,Derecha,Carcinoma papilar,Unifocal,Alto,T4a,N1b,M0,I,Incompleto estructural,Sí,362,362
+80,Femenino,Sí,Sí,No,Eutiroideo,Bocio multinodular,Derecha,Carcinoma papilar,Unifocal,Alto,T4a,N1b,M0,III,Incompleto estructural,Sí,363,363
+67,Femenino,No,No,No,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Multifocal,Alto,T4a,N1b,M0,III,Incompleto estructural,Sí,364,364
+68,Femenino,No,No,No,Eutiroideo,Bocio multinodular,Bilateral,Carcinoma papilar,Multifocal,Alto,T4a,N1b,M1,IVB,Incompleto estructural,Sí,365,365
+71,Femenino,Sí,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma folicular,Multifocal,Alto,T4a,N0,M1,IVB,Incompleto estructural,Sí,366,366
+64,Femenino,No,Sí,No,Eutiroideo,Bocio multinodular,No,Carcinoma folicular,Multifocal,Alto,T4a,N0,M1,IVB,Incompleto estructural,Sí,367,367
+80,Masculino,Sí,No,No,Eutiroideo,Bocio nodular único-izquierdo,No,Carcinoma de células Hürthle,Multifocal,Intermedio,T4a,N0,M0,II,Incompleto estructural,Sí,368,368
+56,Femenino,No,No,No,Eutiroideo,Bocio multinodular,Posterior,Carcinoma papilar,Multifocal,Alto,T4a,N1b,M0,II,Incompleto estructural,Sí,369,369
+71,Masculino,Sí,Sí,No,Hipotiroidismo subclínico,Bocio multinodular,Bilateral,Carcinoma papilar,Multifocal,Alto,T4a,N1b,M0,III,Incompleto estructural,Sí,370,370
+78,Masculino,Sí,Sí,Sí,Hipertiroidismo clínico,Bocio multinodular,No,Carcinoma folicular,Multifocal,Alto,T4a,N0,M1,IVB,Incompleto estructural,Sí,371,371
+51,Femenino,No,No,No,Eutiroideo,Bocio multinodular,No,Carcinoma papilar,Multifocal,Alto,T4a,N1a,M1,II,Incompleto estructural,Sí,372,372
+67,Femenino,Sí,No,No,Hipotiroidismo subclínico,Bocio multinodular,No,Carcinoma papilar,Multifocal,Alto,T4a,N0,M0,IVA,Incompleto bioquímico,Sí,373,373
+31,Masculino,Sí,No,Sí,Eutiroideo,Bocio nodular único-izquierdo,Extenso,Carcinoma papilar,Multifocal,Alto,T4a,N1b,M1,II,Incompleto estructural,Sí,374,374
+62,Masculino,Sí,No,No,Eutiroideo,Bocio nodular único-izquierdo,Izquierda,Carcinoma papilar,Multifocal,Alto,T4a,N1b,M1,IVB,Incompleto estructural,Sí,375,375
+59,Femenino,No,No,No,Eutiroideo,Bocio multinodular,Bilateral,Carcinoma papilar,Multifocal,Alto,T4b,N1b,M0,IVB,Incompleto estructural,Sí,376,376
+40,Masculino,Sí,No,No,Eutiroideo,Bocio multinodular,Bilateral,Carcinoma papilar,Multifocal,Alto,T4b,N1b,M0,I,Incompleto estructural,Sí,377,377
+46,Masculino,Sí,No,No,Eutiroideo,Bocio nodular único-izquierdo,Bilateral,Carcinoma folicular,Unifocal,Alto,T4b,N1b,M1,II,Incompleto estructural,Sí,378,378
+72,Masculino,Sí,Sí,Sí,Eutiroideo,Bocio nodular único-derecho,Derecha,Carcinoma papilar,Unifocal,Alto,T4b,N1b,M1,IVB,Incompleto bioquímico,Sí,379,379
+81,Masculino,Sí,No,Sí,Eutiroideo,Bocio multinodular,Extenso,Carcinoma papilar,Multifocal,Alto,T4b,N1b,M1,IVB,Incompleto estructural,Sí,380,380
+72,Masculino,Sí,Sí,No,Eutiroideo,Bocio multinodular,Bilateral,Carcinoma papilar,Multifocal,Alto,T4b,N1b,M1,IVB,Incompleto estructural,Sí,381,381
+61,Masculino,Sí,Sí,Sí,Hipertiroidismo clínico,Bocio multinodular,Extenso,Carcinoma de células Hürthle,Multifocal,Alto,T4b,N1b,M0,IVA,Incompleto estructural,Sí,382,382
+67,Masculino,Sí,No,No,Eutiroideo,Bocio multinodular,Bilateral,Carcinoma papilar,Multifocal,Alto,T4b,N1b,M0,IVA,Incompleto estructural,Sí,383,383
