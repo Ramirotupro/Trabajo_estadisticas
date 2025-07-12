@@ -1,0 +1,110 @@
+---
+title: "Análisis de Edad en Pacientes con Patología Tiroidea"
+author: "Yezit Quispe Monroy"
+format: html
+editor: visual
+---
+
+# Integrantes GRUPO 10:
+
+1.  Gutierrez Utrilla Annalisa Caterina
+2.  Huarcaya Anteza Carlos Ramiro
+3.  Peceros Arenas Edwin Adrian
+4.  Quispe Monroy Yezit Katerin
+5.  Zambrano Motta Miluska Sarai.
+
+# Cargar paquetes necesarios
+
+```{r}
+library(tidyverse)
+library(here)
+library(gtsummary)
+library(car)
+```
+
+# Cargar los datos
+
+```{r}
+datos <- read_csv("tiroides.csv")
+
+# Crear variables binarias para los análisis
+
+datos <- datos %>%
+  mutate(
+    Fumador_bin = ifelse(Fumador == "Sí", 1, 0),
+    Genero = factor(Genero),
+    Funcion_Tiroidea = factor(Funcion_Tiroidea),
+    Riesgo = factor(Riesgo)
+  )
+```
+
+# 1. Regresión lineal simple:
+
+### Edad \~ Fumador
+
+```{r}
+modelo_rls <- lm(Edad ~ Fumador_bin, data = datos)
+summary(modelo_rls)
+```
+
+Interpretación: Este modelo estima la edad promedio según condición de fumador. El intercepto representa la edad media de los no fumadores, y el coeficiente de `Fumador_bin` la diferencia de edad entre fumadores y no fumadores.
+
+# 2. Prueba t de Student
+
+## 2.1 Comparación de Edad según Género
+
+```{r}
+t.test(Edad ~ Genero, data = datos, var.equal = TRUE)
+```
+
+## 2.2 Comparación de Edad según Fumador
+
+```{r}
+t.test(Edad ~ Fumador, data = datos, var.equal = TRUE)
+```
+
+# 3. ANOVA:
+
+### Edad \~ Funcion_Tiroidea y Edad \~ Riesgo
+
+## 3.1 ANOVA por Función Tiroidea
+
+```{r}
+modelo_anova_ft <- aov(Edad ~ Funcion_Tiroidea, data = datos)
+summary(modelo_anova_ft)
+```
+
+## 3.2 ANOVA por Riesgo
+
+```{r}
+modelo_anova_riesgo <- aov(Edad ~ Riesgo, data = datos)
+summary(modelo_anova_riesgo)
+```
+
+# 4. Visualizaciones
+
+```{r}
+# Boxplots
+
+datos %>%
+  ggplot(aes(x = Fumador, y = Edad, fill = Fumador)) +
+  geom_boxplot() +
+  labs(title = "Edad por condición de fumador") +
+  theme_minimal()
+
+datos %>%
+  ggplot(aes(x = Genero, y = Edad, fill = Genero)) +
+  geom_boxplot() +
+  labs(title = "Edad por género") +
+  theme_minimal()
+
+datos %>%
+  ggplot(aes(x = Funcion_Tiroidea, y = Edad, fill = Funcion_Tiroidea)) +
+  geom_boxplot() +
+  labs(title = "Edad por función tiroidea") +
+  theme_minimal()
+```
+
+------------------------------------------------------------------------
+
+Este análisis busca ilustrar las diferencias de edad entre distintos grupos clínicos y demográficos en una muestra de pacientes con patologías tiroideas. Se han utilizado modelos de regresión, pruebas t y ANOVA como herramientas principales.

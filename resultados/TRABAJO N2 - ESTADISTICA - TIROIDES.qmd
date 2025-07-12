@@ -1,0 +1,153 @@
+---
+title: "Trabajo de base de datos"
+author: "Quispe Yezit"
+format: pdf
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Importación del Dataset
+
+Importamos el dataset desde un archivo `excel` que contiene información clínica de pacientes con TIROIDES. Usamos la librería `readr` para una lectura eficiente.
+
+```{r}
+# Cargar paquetes necesarios
+library(readr)
+library(dplyr)
+library(stringr)
+library(ggplot2)
+```
+
+Impostamos el archivo
+
+```{r}
+
+library(readxl)
+```
+
+```{r}
+file.choose()
+```
+
+```{r}
+data <- read_excel("C:\\Users\\User\\Downloads\\almac_sangre.xlsx")
+data
+```
+
+```{r}
+# Visualizamos la estructura general del dataset
+glimpse(data)
+```
+
+## Limpieza de datos
+
+En esta sección vamos a realizar la estandarización de valores y tratamiento de datos faltantes. Normalización de valores categóricos "Sí"/"No" Unificamos la codificación de valores binarios (por ejemplo, "sí", "SI", "No", etc.) a "Sí"y "No".
+
+```{r}
+# Campos con valores binarios
+campos_binarios <- c(
+  "Raza_afroamericana", "Historia_familiar", "Confinamiento_organo", 
+  "Terapia_previa", "Terapia_adyuvante", "Radioterapia_adyuvante", 
+  "Recurrencia_bioquimica", "Censor", "BN_positivo"
+)
+```
+
+```{r}
+# Homogeneizar los valores
+data <- data %>%
+  mutate(across(all_of(campos_binarios), ~ case_when(
+    str_to_lower(.) %in% c("sí", "si") ~ "Sí",
+    str_to_lower(.) == "no" ~ "No",
+    TRUE ~ NA_character_
+  )))
+```
+
+### Conversión de variables categóricas a factor
+
+Convertimos columnas clave a tipo factor para facilitar el análisis y visualización.
+
+```{r}
+data <- data %>%
+  mutate(
+    Grupo_edad_GR = factor(Grupo_edad_GR),
+    Estadio_T = factor(Estadio_T),
+    Gleason_biopsia = factor(Gleason_biopsia),
+    Gleason_quirurgico = factor(Gleason_quirurgico),
+    Volumen_tumoral = factor(Volumen_tumoral, levels = c("Bajo", "Medio", "Alto"), ordered = TRUE)
+  )
+```
+
+## Transformación de Datos
+
+### Nueva variable: grupo de edad simplificado
+
+Agrupamos los niveles de Grupo_edad_GR en dos categorías: menores de 65 años y mayores de 65.
+
+```{r}
+data <- data %>%
+  mutate(Grupo_edad_simplificado = case_when(
+    Grupo_edad_GR %in% c("Joven", "Intermedio") ~ "Menor de 65",
+    Grupo_edad_GR == "Mayor" ~ "65 o más",
+    TRUE ~ NA_character_
+  ))
+```
+
+### Volumen tiroideo relativo
+
+Creamos una variable nueva que representa el volumen dimensional relativo al volumen tiroideo.
+
+```{r}
+data <- data %>%
+  mutate(
+    volumen_tumoral_relativo = as.numeric(Volumen_tiroides) / case_when(
+      Volumen_tiroides == "Bajo" ~ 1,
+      Volumen_tiroides == "Medio" ~ 2,
+      Volumen_tiroides == "Alto" ~ 3,
+      TRUE ~ NA_real_
+    )
+  )
+```
+
+## Análisis Exploratorio
+
+Aquí vamos a presentar algunas estadísticas descriptivas básicas y una visualización sencilla.
+
+```{r}
+summary(data)
+```
+
+```{r}
+table(data$Grupo_edad_GR, data$Recurrencia_bioquimica)
+```
+
+```{r}
+ggplot(data, aes(x = Estadio_T, y = PSA_preoperatorio)) +
+  geom_boxplot(fill = "#1f77b4") +
+  labs(title = "Distribución del PSA preoperatorio por estadio T",
+       x = "Estadio T", y = "PSA preoperatorio")
+```
+
+### Exportación del Dataset Limpio
+
+Guardamos la versión final del conjunto de datos en dos formatos: .csvy .rds.
+
+```{r}
+# Guardamos como CSV
+write_csv(data, "datos_prostata_limpios.csv")
+```
+
+```{r}
+#install.packages("tinytex")
+```
+
+```{r}
+#chooseCRANmirror()
+```
+
+```{r}
+install.packages("tinytex")
+tinytex::install_tinytex()
+```

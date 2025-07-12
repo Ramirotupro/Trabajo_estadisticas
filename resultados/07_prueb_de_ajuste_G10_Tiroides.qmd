@@ -1,0 +1,76 @@
+---
+title: "Bondad de ajuste"
+format: html
+autor: Adrian Peceros
+  markdown: 
+    wrap: 72
+---
+
+# Integrantes GRUPO 10:
+
+1.  Gutierrez Utrilla Annalisa Caterina
+2.  Huarcaya Anteza Carlos Ramiro
+3.  Peceros Arenas Edwin Adrian
+4.  Quispe Monroy Yezit Katerin
+5.  Zambrano Motta Miluska Sarai
+
+# Cargamos los paquetes necesarios
+
+```{r}
+install.packages("rio")
+```
+
+```{r}
+install.packages("here")
+```
+
+```{r}
+library("rio")
+library("here")
+
+```
+
+# Cargar los datos
+
+```{r}
+data_tiroides_g10 <- import(here("data", "tiroides.csv"))
+```
+
+## Para la variable edad
+
+```{r}
+shapiro.test(data_tiroides_g10$Edad)
+
+```
+
+Interpretación: Estadístico W: 0.94223 p-valor:4.667e-11 = 0.0000000000172 Valor de confianza: 0.05 0.0000000000172 \< 0.05 Resultado: p-valor es menor al valor de confianza. Se rechaza la hipótesis nula.
+
+## Para la variable presion_sanguinea
+
+Esta variable corresponde a medidas de glucosa en mg/dL
+
+```{r}
+data_tiroides_g10$T_num <- as.numeric(factor(data_tiroides_g10$T))
+shapiro.test(data_tiroides_g10$T_num)
+
+```
+
+Interpretación: Estadístico: 0.90727 p-valor:1.469e-14 = 0.00000000000001469 Valor de confianza: 0.05 0.00009451 \< 0.05 Resultado: p-valor es menor al valor de confianza. Se rechaza la hipótesis nula.
+
+```{r}
+table(data_tiroides_g10$Fumador)
+```
+
+Un estudio previo realizado en Perú reportó una prevalencia de tabaquismo activo del 17.1% (DOI: https://doi.org/10.17843/rpmesp.2022.392.11233).
+
+Se evaluaron 383 personas con las siguientes observaciones: - 49 fumadores (12.8%) - 334 no fumadores (87.2%)
+
+```{r}
+chisq.test(x = c(49, 334), p = c(0.171, 0.829))
+```
+
+Interpretación: Estadístico de prueba: \[valor X² que te dé R\] p-valor: \[valor que te dé R\] Nivel de significancia: 0.05
+
+Comparación: Si el p-valor \< 0.05 → Se rechaza la hipótesis nula. Si el p-valor ≥ 0.05 → No se rechaza la hipótesis nula.
+
+Conclusión: \[Por ejemplo: "El p-valor fue mayor que 0.05, por lo tanto, no se rechaza la hipótesis nula. Las proporciones observadas no son significativamente diferentes de las proporciones esperadas según el estudio peruano de referencia."\]

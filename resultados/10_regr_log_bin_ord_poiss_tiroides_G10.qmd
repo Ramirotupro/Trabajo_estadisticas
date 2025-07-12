@@ -1,0 +1,91 @@
+---
+title: "Regresión Logistica y Regresión de Poisson"
+author: "Grupo10"
+format: html
+editor: visual
+---
+
+# Cargar e instalar paquetes
+
+```{r}
+# install.packages("car") # Descomentar si no está instalado
+library(tidyverse)
+library(here)
+library(rio)
+library(gtsummary)
+library(car)
+library(MASS)
+library(nnet)
+```
+
+## Cargando los datos
+
+```{r}
+tiroides <- import(here("tiroides.csv"))
+```
+
+## Sobre los datos para esta práctica
+
+El dataset *tiroides* incluye información de 383 pacientes con enfermedades tiroideas. Las variables abarcan edad, género, historial de tabaquismo, hallazgos clínicos, clasificación TNM, tipo de patología, respuesta al tratamiento y recurrencia.
+
+## Regresión Logística Binaria
+
+### Objetivo
+Analizar si la edad y el género están asociados con la recurrencia de la enfermedad.
+
+```{r}
+tiroides <- tiroides %>%
+  mutate(Recurrencia = factor(Recurrencia, levels = c("No", "Sí")),
+         Genero = factor(Genero))
+
+modelo_logit <- glm(Recurrencia ~ Edad + Genero, data = tiroides, family = binomial)
+summary(modelo_logit)
+```
+
+```{r}
+tbl_regression(modelo_logit, exponentiate = TRUE)
+```
+
+**Interpretación**: Se observa si la edad y el género modifican la probabilidad de recurrencia. El OR > 1 implica mayor riesgo.
+
+## Regresión Logística Ordinal
+
+### Objetivo
+Modelar la variable *Respuesta* al tratamiento (ordenada) en función del riesgo y tipo tumoral T.
+
+```{r}
+tiroides <- tiroides %>%
+  mutate(Respuesta = factor(Respuesta, ordered = TRUE),
+         Riesgo = factor(Riesgo),
+         T = factor(T))
+
+modelo_ord <- polr(Respuesta ~ Riesgo + T, data = tiroides, Hess = TRUE)
+summary(modelo_ord)
+```
+
+```{r}
+# Obtener intervalos de confianza
+exp(cbind(OR = coef(modelo_ord), confint(modelo_ord)))
+```
+
+**Interpretación**: Se evalúa si el riesgo o el tamaño tumoral predicen mejor o peor respuesta al tratamiento.
+
+## Regresión de Poisson
+
+### Objetivo
+Simular un escenario con conteo. Creamos una variable ficticia: número de controles médicos posteriores al tratamiento (entre 0 y 5).
+
+```{r}
+set.seed(123)
+tiroides <- tiroides %>%
+  mutate(Controles = rpois(n(), lambda = ifelse(Recurrencia == "Sí", 4, 2)))
+
+modelo_pois <- glm(Controles ~ Edad + Recurrencia, data = tiroides, family = poisson)
+summary(modelo_pois)
+```
+
+```{r}
+tbl_regression(modelo_pois, exponentiate = TRUE)
+```
+
+**Interpretación**: Evaluamos si la recurrencia y edad se asocian con mayor número de controles médicos.

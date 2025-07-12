@@ -1,0 +1,94 @@
+---
+title: "Poder estadístico y cálculo de muestra"
+format: html
+Autor: Ramiro Huarcaya
+---
+
+# Integrantes GRUPO 10:
+
+1.  Gutierrez Utrilla Annalisa Caterina
+2.  Huarcaya Anteza Carlos Ramiro
+3.  Peceros Arenas Edwin Adrian
+4.  Quispe Monroy Yezit Katerin
+5.  Zambrano Motta Miluska Sarai
+
+# Instalar y Cargar paquetes para el cálculo de análisis de poder estadístico
+
+```{r}
+install.packages("epiR")
+```
+
+```{r}
+library(epiR)
+```
+
+# 1. Cálculo del tamaño de muestra para estimar la prevalencia de HTA resistente
+
+Caso: Se desea estimar la prevalencia de hipertensión arterial resistente (HTAR) en adultos mayores de 60 años. Un estudio en el Hospital Nacional Arzobispo Loayza reportó una prevalencia de 22.6%.
+
+Pregunta: ¿Cuál sería el tamaño de muestra necesario para estimar esta prevalencia con un error relativo del 20% y un nivel de confianza del 95%?
+
+DOI: 10.35434/ucv.saludpublica.2024.21.1.2024
+
+```{r}
+epi.sssimpleestb(N = NA, Py = 0.226, 
+                 epsilon = 0.20, error = "relative", 
+                 se = 1, sp = 1, 
+                 nfractional = FALSE, conf.level = 0.95)
+```
+
+Es necesario 329 participantes.
+
+# 2. Cálculo del tamaño de muestra para un estudio de casos y controles
+
+Caso: Se desea investigar la asociación entre hipertensión arterial resistente (HTAR) y enfermedad renal crónica (ERC) en adultos mayores.
+
+Supuestos:
+
+OR esperada: 2.0
+
+Prevalencia de ERC en controles: 15%
+
+Poder: 80%
+
+Confianza: 95%
+
+Relación casos/controles = 1:1
+
+```{r}
+epi.sscc(OR = 2.0, p1 = NA, 
+         p0 = 0.15, n = NA, 
+         power = 0.80, r = 1, 
+         phi.coef = 0, design = 1, 
+         sided.test = 2, conf.level = 0.95, 
+         method = "unmatched", nfractional = FALSE, 
+         fleiss = FALSE)
+```
+
+Es necesario 208 casos y 208 controles.
+
+# 3. Cálculo del tamaño de muestra para un estudio de cohorte
+
+Caso: Se busca evaluar si la HTAR incrementa el riesgo de eventos cardiovasculares en adultos mayores.
+
+Supuestos:
+
+Riesgo en no expuestos (HTA no resistente): 10%
+
+RR esperado: 1.5
+
+Seguimiento: 5 años
+
+Poder: 80%
+
+Nivel de confianza: 95%
+
+```{r}
+epi.sscohortt(irexp1 = 0.10 * 1.5, 
+              irexp0 = 0.10, FT = 5, n = NA, 
+              power = 0.80, r = 1, design = 1, 
+              sided.test = 2, nfractional = FALSE, 
+              conf.level = 0.95)
+```
+
+Es necesario 384 de expuestos y 384 no expuestos.
